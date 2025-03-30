@@ -1,0 +1,2 @@
+add_library(VirtualScreen VirtualScreen/VirtualScreen.cpp VirtualScreen/VirtualScreen.h VirtualScreen/BufferIterator.cpp VirtualScreen/BufferIterator.h)
+target_link_libraries(VirtualScreen SDL2)
